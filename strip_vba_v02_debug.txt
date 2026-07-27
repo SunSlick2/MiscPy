@@ -1,0 +1,81 @@
+Processing: Mailer.xlsm
+  [1/2] Extracting VBA source...
+    Extracted: ThisWorkbook.cls
+    Extracted: Sheet6.cls
+    Extracted: Sheet2.cls
+    Extracted: Sheet4.cls
+    Extracted: Sheet1.cls
+    Extracted: Sheet3.cls
+    Extracted: Sheet5.cls
+    Extracted: Module1.bas
+    Extracted: Module2.bas
+    Extracted: WIP.bas
+    Extracted: Sheet7.cls
+    Extracted: Sheet8.cls
+    Extracted: Sheet9.cls
+    Extracted: Sheet10.cls
+    Extracted: Sheet11.cls
+    Extracted: GenMorningeMails.bas
+    Extracted: Sheet12.cls
+    Extracted: Sheet13.cls
+    Extracted: GenContinuumRollover.bas
+    Extracted: GenMonthlyBalances.bas
+    Extracted: Helper.bas
+    Extracted: Sheet14.cls
+    Extracted: GenGreetings.bas
+    Extracted: Sheet15.cls
+    Extracted: GenContCR.bas
+    Extracted: Sheet16.cls
+    -> 26 module(s) written to Mailer_vba_modules/
+    Scanning for Shell() references...
+  [2/2] Stripping VBA project from workbook...
+    Deleted xl/vbaProject.bin
+    [!] No vbaProject relationship found in workbook.xml.rels (already clean?)
+    Removed vbaProject Override entry
+    Switched workbook.xml content type to standard (non-macro)
+    Removed 3 macro attribute(s) from xl/drawings/drawing13.xml
+    Removed 1 macro attribute(s) from xl/drawings/drawing14.xml
+    Removed 3 macro attribute(s) from xl/drawings/drawing1.xml
+    Removed 3 macro attribute(s) from xl/drawings/drawing2.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing3.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing4.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing5.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing6.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing7.xml
+    Removed 1 macro attribute(s) from xl/drawings/drawing8.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing9.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing10.xml
+    Removed 3 macro attribute(s) from xl/drawings/drawing11.xml
+    Removed 2 macro attribute(s) from xl/drawings/drawing12.xml
+    [!] Remaining macro references found (may still trigger warning):
+        xl/worksheets/sheet1.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet1.xml: macro="[0]!CallDN1"
+        xl/worksheets/sheet1.xml: macro="[0]!CallDN3"
+        xl/worksheets/sheet2.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet2.xml: macro="[0]!Call3601"
+        xl/worksheets/sheet2.xml: macro="[0]!Call3602"
+        xl/worksheets/sheet3.xml: macro="[0]!GenerateEmailsForClients"
+        xl/worksheets/sheet3.xml: macro="[0]!GrabMorningScreenshots"
+        xl/worksheets/sheet4.xml: macro="[0]!GenerateEmailsForContinuumRollover"
+        xl/worksheets/sheet4.xml: macro="[0]!GrabContRolloverData"
+        xl/worksheets/sheet5.xml: macro="[0]!GenerateEmailsForContinuumCR"
+        xl/worksheets/sheet5.xml: macro="[0]!GrabContCR"
+        xl/worksheets/sheet6.xml: macro="[0]!GenerateEmailsForBalances"
+        xl/worksheets/sheet6.xml: macro="[0]!GrabMonthlyBalances"
+        xl/worksheets/sheet8.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet8.xml: macro="[0]!CallOther"
+        xl/worksheets/sheet9.xml: macro="[0]!GenerateGreetingEmailsForClients"
+        xl/worksheets/sheet10.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet10.xml: macro="[0]!CallOther"
+        xl/worksheets/sheet11.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet11.xml: macro="[0]!CallOther"
+        xl/worksheets/sheet12.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet12.xml: macro="[0]!CallOther"
+        xl/worksheets/sheet12.xml: macro="[0]!CallOther"
+        xl/worksheets/sheet13.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet13.xml: macro="[0]!CallOther"
+        xl/worksheets/sheet14.xml: macro="[0]!SendMailMergeExcel"
+        xl/worksheets/sheet14.xml: macro="[0]!CallDN1"
+        xl/worksheets/sheet14.xml: macro="[0]!CallDN2"
+        xl/worksheets/sheet15.xml: macro="[0]!SendMailMergeExcel2"
+    -> Wrote Mailer_clean.xlsx
